@@ -1,0 +1,46 @@
+body{
+	background-image: url('computer.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+}
+.container img{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	float: left;
+}
+
+.navbar{
+	float: right;
+}
+
+.navbar ul li{
+	display: inline-block;
+	padding-left: 50px;
+}
+
+
+.navbar ul{
+	padding-right: 50px;
+}
+
+
+.navbar a{
+	text-decoration: none;
+	color: white;
+	font-family: bold;
+}
+.navbar a:hover {
+	background-color: white;
+  	color: black;
+}
+
+.header p{
+
+	font-size: 30px;
+	font-family: Alegreya SC;
+	color: white;
+	padding-top: 60px;
+}
